@@ -65,14 +65,14 @@ class jSocialTwigExtension extends \Twig_Extension
 
   public function getButtons($btnList = null, $options = array()){
     $defaults = $this->setDefaults();
-    $list = [
+    $list = array(
       'facebook',
       'twitter',
       'linkedin',
       'googleplus',
       'email',
       'print',
-    ];
+    );
     $options = $this->setOpts($defaults, $options);
 
     $buttons = '';
