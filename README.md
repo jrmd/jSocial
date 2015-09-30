@@ -3,7 +3,7 @@
 
 ###About
 
-jSocial is a Craft CMS plugin that gives the user the abilty to add links to share on Facebook, Twitter, LinkedIn and Google+. Not only does it just echo out a link, its almost completely customizable. It has support for things such as custom images, custom classes, font awesome icons, fontello icon sets and just plain text.
+jSocial is a Craft CMS plugin that gives the user the ability to add links to share on Facebook, Twitter, LinkedIn and Google+. Not only does it just echo out a link, its almost completely customizable. It has support for things such as custom images, custom classes, font awesome icons, fontello icon sets and just plain text.
 
 ###How to use jSocial
 
