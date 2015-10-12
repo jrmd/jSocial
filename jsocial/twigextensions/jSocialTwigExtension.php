@@ -141,7 +141,7 @@ class jSocialTwigExtension extends \Twig_Extension
       case 'text':
         switch ($btn) {
           case 'facebook':
-            $button = "<a target='_blank' ". $id ." href='https://www.facebook.com/sharer/sharer.php?u=". $options['url'] ."&t=" . $options['title']. "'> ". $options['content'][$btn]['value'] ." </a>";
+            $button = "<a target='_blank' ". $id ." href='https://www.facebook.com/sharer/sharer.php?u=". $options['url'] ."&t=" . $options['title']. "' class='".$options['class-prefix'] . $options['content'][$btn]['class'] ."'> ". $options['content'][$btn]['value'] ." </a>";
             break;
           case 'twitter':
             $button = "<a target='_blank' ". $id ." href='https://twitter.com/intent/tweet?text=". $options['title'] ."&source=sharethiscom&related=sharethis&url=" . $options['url'] . "' class='".$options['class-prefix']. $options['content'][$btn]['class'] ."'> ". $options['content'][$btn]['value'] ." </a>";
